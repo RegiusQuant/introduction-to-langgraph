@@ -1,0 +1,24 @@
+[project]
+name = "introduction-to-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4.4.4",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.68",
+    "langchain-openai>=0.3.27",
+    "langchain-tavily>=0.2.7",
+    "langgraph>=0.5.1",
+    "langgraph-checkpoint-sqlite>=2.0.10",
+    "langgraph-cli>=0.3.3",
+    "langgraph-prebuilt>=0.5.2",
+    "langsmith>=0.4.4",
+    "pygraphviz>=1.14",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
